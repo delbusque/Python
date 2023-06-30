@@ -1,8 +1,13 @@
-name = 'Todd'
-num = 100
+import math
 
-print('Hello',name.upper()+'.\nHow are you ?')
-print('I`m', num,'% !!!')
+name = 'Todd'
+num1 = 100.2
+num = round(num1)
+
+numSqrt = math.sqrt(num)
+
+print('Hello', name.upper()+'.\nHow are you ?')
+print('I`m', int(numSqrt) * 10, '% !!!')
 
 flag = name.isupper()
 
