@@ -26,3 +26,7 @@ def reversed(sentence):
 
 
 reversed('We Are GeAdy')
+
+myl = ['a', 'b', 'c']
+
+print(myl[::-1])
