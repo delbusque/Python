@@ -1,4 +1,7 @@
 class Dog():
+
+    species = 'mammal'
+
     def __init__(self, breed, name, spots):
         self.breed = breed
         self.name = name
@@ -14,3 +17,6 @@ print(my_dog.spots)
 print(your_dog.breed)
 print(your_dog.name)
 print(your_dog.spots)
+
+print(my_dog.species)
+print(your_dog.species)
