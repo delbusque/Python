@@ -7,6 +7,9 @@ class Dog():
         self.name = name
         self.spots = spots
 
+    def bark(self, num = 1):
+        print(f'{self.name} is barking ... {num} times ! This {Dog.species} is a {self.breed} !')
+
 my_dog = Dog('Huskie', 'Lucky', True)
 your_dog = Dog(name='Buck', spots=False, breed='Shephard')
 
@@ -20,3 +23,5 @@ print(your_dog.spots)
 
 print(my_dog.species)
 print(your_dog.species)
+
+my_dog.bark(3)
